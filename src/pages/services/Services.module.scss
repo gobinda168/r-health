@@ -1,7 +1,7 @@
 @import '../../styles/contants.scss';
 .services {
-  height: 100vh;
   background-color: $grey;
+
   .title {
     text-align: center;
     font-size: xx-large;
@@ -12,9 +12,8 @@
   }
   .container {
     display: flex;
-    // flex-direction: column;
     justify-content: space-around;
-    // align-items: center;
-    margin: 10rem 5rem 0 5rem;
+    padding-bottom: 6rem;
+    margin: 6rem 5rem 0 5rem;
   }
 }
