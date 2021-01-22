@@ -1,3 +1,11 @@
 .appContainer {
   background-color: white;
+  .navigation {
+    display: flex;
+    justify-content: center;
+    a {
+      margin-right: 1rem;
+      margin-bottom: 2rem;
+    }
+  }
 }

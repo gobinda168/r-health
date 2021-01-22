@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../components/button/Button';
 import styles from './Offer.module.scss';
 
 const Offer = () => (
@@ -9,9 +10,7 @@ const Offer = () => (
     <div className={styles.subTitle}>
       Find all the services in $100 per month
     </div>
-    <button type="button" className={styles.button}>
-      Start Now
-    </button>
+    <Button>Start Now</Button>
   </div>
 );
 
