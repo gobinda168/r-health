@@ -1,0 +1,20 @@
+@import '../../styles/contants.scss';
+.services {
+  height: 100vh;
+  background-color: $grey;
+  .title {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Lato';
+    font-weight: 500;
+    color: $black;
+    padding-top: 5rem;
+  }
+  .container {
+    display: flex;
+    // flex-direction: column;
+    justify-content: space-around;
+    // align-items: center;
+    margin: 10rem 5rem 0 5rem;
+  }
+}

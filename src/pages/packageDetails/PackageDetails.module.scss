@@ -1,0 +1,49 @@
+@import '../../styles/contants.scss';
+.container {
+  background-color: $primary;
+  color: $white;
+  .top {
+    height: 40vh;
+    background-color: $primary;
+  }
+  .middle {
+    margin-right: 5rem;
+    height: 25rem;
+    position: absolute;
+    margin-left: 5rem;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: $secondary;
+    .middleLeft {
+      min-width: 30%;
+      margin: 4rem;
+      font-weight: 300;
+      .recommendText {
+        color: #edac1f;
+        text-transform: uppercase;
+        font-family: 'Montserrat';
+        font-weight: 700;
+      }
+      .title {
+        margin: 1rem 0 2rem 0;
+        font-size: xx-large;
+      }
+      .subTitle {
+        opacity: 0.7;
+        font-size: medium;
+      }
+    }
+  }
+  .bottom {
+    height: 59vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: $black;
+  }
+}

@@ -1,0 +1,24 @@
+.benefitContainer {
+  display: flex;
+  flex-direction: column;
+  min-width: 23vw;
+  color: white;
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .icon {
+      padding-top: 0.3rem;
+      margin-right: 1rem;
+    }
+    .text {
+      opacity: 0.95;
+      font-weight: 300;
+    }
+  }
+  .divider {
+    border-top: 1px solid #55434b;
+    min-width: 100%;
+    margin-top: 1.2rem;
+  }
+}

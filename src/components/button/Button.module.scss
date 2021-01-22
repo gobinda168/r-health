@@ -1,0 +1,11 @@
+@import '../../styles/contants.scss';
+.button {
+  margin-top: 2rem;
+  background-color: $accent;
+  color: $black;
+  border: none;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
