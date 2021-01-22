@@ -15,7 +15,7 @@ const PackageDetails = () => (
       </div>
       <Benefits />
     </div>
-    <div className={styles.bottom}>OR You can buy individual services</div>
+    <div className={styles.bottom} />
   </div>
 );
 

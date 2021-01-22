@@ -1,12 +1,18 @@
 .benefitContainer {
   display: flex;
   flex-direction: column;
-  min-width: 23vw;
+  width: 23vw;
   color: white;
+  @media (max-width: 950px) {
+    width: 100%;
+  }
   .container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    @media (max-width: 950px) {
+      // flex-wrap: wrap;
+    }
     .icon {
       padding-top: 0.3rem;
       margin-right: 1rem;
@@ -17,7 +23,7 @@
     }
   }
   .divider {
-    border-top: 1px solid #55434b;
+    border-top: 1px solid #c7c3c5;
     margin-top: 1.2rem;
     margin-right: 1rem;
   }

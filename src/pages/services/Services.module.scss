@@ -1,6 +1,5 @@
 @import '../../styles/contants.scss';
 .services {
-  height: 100vh;
   background-color: $grey;
   .title {
     text-align: center;
@@ -9,12 +8,25 @@
     font-weight: 500;
     color: $black;
     padding-top: 5rem;
+    @media (max-width: 500px) {
+      margin-top: 7rem;
+    }
+    @media (max-width: 360px) {
+      margin-top: 12rem;
+      font-size: x-large;
+    }
   }
   .container {
-    display: flex;
-    // flex-direction: column;
-    justify-content: space-around;
-    // align-items: center;
-    margin: 10rem 5rem 0 5rem;
+    display: grid;
+    // justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding-bottom: 6rem;
+    margin: 6rem 5rem 0 5rem;
+    @media (max-width: 950px) {
+      grid-template-columns: 1fr;
+      margin: 0;
+      margin-top: 5rem;
+    }
   }
 }

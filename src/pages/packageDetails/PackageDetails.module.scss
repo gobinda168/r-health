@@ -5,6 +5,9 @@
   .top {
     height: 40vh;
     background-color: $primary;
+    @media (max-width: 950px) {
+      display: none;
+    }
   }
   .middle {
     margin-right: 5rem;
@@ -15,10 +18,20 @@
     display: flex;
     flex-direction: row;
     background-color: $secondary;
+    @media (max-width: 950px) {
+      position: relative;
+      margin-left: 0;
+      width: 100%;
+      margin-top: -100px;
+      flex-wrap: wrap;
+    }
     .middleLeft {
       min-width: 30%;
       margin: 4rem;
       font-weight: 300;
+      @media (max-width: 500px) {
+        margin: 4rem 0 4rem 2rem;
+      }
       .recommendText {
         color: #edac1f;
         text-transform: uppercase;
@@ -36,7 +49,7 @@
     }
   }
   .bottom {
-    height: 59vh;
+    height: 39vh;
     background-color: white;
     display: flex;
     flex-direction: column-reverse;
