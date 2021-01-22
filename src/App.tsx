@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import styles from './App.module.scss';
-import PackageDetails from './pages/packageDetails/PackageDetails';
+import Services from './pages/services/Services';
+// import Offer from './pages/offer/Offer';
+// import PackageDetails from './pages/packageDetails/PackageDetails';
 
 const App = () => (
   <div className={styles.appContainer}>
-    <PackageDetails />
+    {/* <PackageDetails /> */}
+    {/* <Offer /> */}
+    <Services />
   </div>
 );
 
