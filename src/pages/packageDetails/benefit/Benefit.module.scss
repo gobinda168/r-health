@@ -3,10 +3,16 @@
   flex-direction: column;
   width: 23vw;
   color: white;
+  @media (max-width: 950px) {
+    width: 100%;
+  }
   .container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    @media (max-width: 950px) {
+      // flex-wrap: wrap;
+    }
     .icon {
       padding-top: 0.3rem;
       margin-right: 1rem;
