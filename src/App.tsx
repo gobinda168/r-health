@@ -5,9 +5,9 @@ import PackageDetails from './pages/packageDetails/PackageDetails';
 
 const App = () => (
   <>
+    <Offer />
     <PackageDetails />
     <Services />
-    <Offer />
   </>
 );
 
